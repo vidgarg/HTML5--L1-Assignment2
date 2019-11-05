@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Travels</title>
-	<h1>My Travels</h1>
+	<title>Xena Travels</title>
+	<h1>Xena Travels</h1>
 	<img src="./download.jpg">
 </head>
 <body>
 	<form>
-		Name: <input type="text" name="name" required=""><br>
-		Age: <input type="number" name="age" min="18" required=""><br>
-		Email ID: <input type="email" name="email" required=""><br>
-		City: <input list="city" name="city" required="">
+		<table border="1">
+  <tr>
+    <td>Name:</td>
+    <td><input type="text" name="name" required=""></td> 
+  </tr>
+  <tr>
+    <td>Age:</td>
+    <td><input type="number" name="age" min="18" required=""></td> 
+  </tr>
+  <tr>
+    <td>Email ID:</td>
+    <td><input type="email" name="email" required=""></td> 
+  </tr>
+  <tr>
+    <td>City:</td>
+    <td> <input list="city" name="city" required="">
 			<datalist id="city">
     		<option value="Rajkot">
-    		<option value="Meerut">
+    		<option value="Vizag">
     		<option value="Bangalore">
-  		</datalist>
-  		<input type="submit">
+  		</datalist></td> 
+  </tr>
+  
+  <tr>
+  <td>  		<input type="submit"></td>
+  </tr>
+</table>
 	</form>
 </body>
 </html>
